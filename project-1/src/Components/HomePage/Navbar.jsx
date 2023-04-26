@@ -17,8 +17,10 @@ import {
   Button,
 } from "@chakra-ui/react";
 import React from "react";
+import { TfiMobile } from "react-icons/tfi";
 
 import { Search2Icon, HamburgerIcon } from "@chakra-ui/icons";
+import Header from "./Header";
 
 function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -32,6 +34,8 @@ function Navbar() {
         base: "border none",
       }}
       h={{ xl: "70px", md: "75px", sm: "75px" }}
+      position={"fixed"}
+      background={"white"}
     >
       <Flex w="100%" alignItems="center" gap="2">
         <Show below="sm">
@@ -97,6 +101,7 @@ function Navbar() {
 
         <Show above="md">
           <Flex ml={"15%"}>
+            <TfiMobile style={{ marginTop: "9px", fontSize: "20px" }} />
             <Box
               style={{
                 width: "130px",
@@ -151,6 +156,7 @@ function Navbar() {
           </Flex>
         </Show>
       </Flex>
+      <Header />
     </Box>
   );
 }

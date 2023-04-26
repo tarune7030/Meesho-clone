@@ -39,12 +39,18 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setWomenEthnic(false)}
             onMouseOver={() => setWomenEthnic(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Women Ethnic
           </MenuButton>
           <MenuList
             w={"1300px"}
-            marginTop={"-9px"}
+            marginTop={"-8px"}
             borderRadius={"none"}
             onMouseOver={() => setWomenEthnic(true)}
             onMouseLeave={() => setWomenEthnic(false)}
@@ -53,7 +59,7 @@ function Header() {
               <GridItem w="auto" h="auto">
                 <p
                   style={{
-                    fontWeight: "bold",
+                    fontWeight: "500",
                     padding: "0px 15px",
                     color: "rgb(244, 51, 151)",
                     textAlign: "start",
@@ -68,7 +74,7 @@ function Header() {
               <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
                 <p
                   style={{
-                    fontWeight: "bold",
+                    fontWeight: "500",
                     textAlign: "start",
                     padding: "0px 15px",
                     color: "rgb(244, 51, 151)",
@@ -84,39 +90,81 @@ function Header() {
                   <MenuItem
                     as="a"
                     href="#"
-                    background={"rgb(249,249,249)"}
                     color={"#718096"}
                     _hover={{ color: "black" }}
+                    background={"rgb(249,249,249)"}
                   >
                     Link 1
                   </MenuItem>
-                  <MenuItem as="a" href="#" background={"rgb(249,249,249)"}>
-                    Link 2
+                  <MenuItem
+                    as="a"
+                    href="#"
+                    color={"#718096"}
+                    _hover={{ color: "black" }}
+                    background={"rgb(249,249,249)"}
+                  >
+                    Link 1
                   </MenuItem>
-                  <MenuItem as="a" href="#" background={"rgb(249,249,249)"}>
-                    Link 2
+                  <MenuItem
+                    as="a"
+                    href="#"
+                    color={"#718096"}
+                    _hover={{ color: "black" }}
+                    background={"rgb(249,249,249)"}
+                  >
+                    Link 1
                   </MenuItem>
-                  <MenuItem as="a" href="#" background={"rgb(249,249,249)"}>
-                    Link 2
+                  <MenuItem
+                    as="a"
+                    href="#"
+                    color={"#718096"}
+                    _hover={{ color: "black" }}
+                    background={"rgb(249,249,249)"}
+                  >
+                    Link 1
                   </MenuItem>
-                  <MenuItem as="a" href="#" background={"rgb(249,249,249)"}>
-                    Link 2
+                  <MenuItem
+                    as="a"
+                    href="#"
+                    color={"#718096"}
+                    _hover={{ color: "black" }}
+                    background={"rgb(249,249,249)"}
+                  >
+                    Link 1
                   </MenuItem>
-                  <MenuItem as="a" href="#" background={"rgb(249,249,249)"}>
-                    Link 2
+                  <MenuItem
+                    as="a"
+                    href="#"
+                    color={"#718096"}
+                    _hover={{ color: "black" }}
+                    background={"rgb(249,249,249)"}
+                  >
+                    Link 1
                   </MenuItem>
-                  <MenuItem as="a" href="#" background={"rgb(249,249,249)"}>
-                    Link 2
+                  <MenuItem
+                    as="a"
+                    href="#"
+                    color={"#718096"}
+                    _hover={{ color: "black" }}
+                    background={"rgb(249,249,249)"}
+                  >
+                    Link 1
                   </MenuItem>
-                  <MenuItem as="a" href="#" background={"rgb(249,249,249)"}>
-                    Link 2
+                  <MenuItem
+                    as="a"
+                    href="#"
+                    color={"#718096"}
+                    _hover={{ color: "black" }}
+                    background={"rgb(249,249,249)"}
+                  >
+                    Link 1
                   </MenuItem>
                 </MenuList>
               </GridItem>
               <GridItem w="100%" h="auto">
                 <p
                   style={{
-                    fontWeight: "bold",
+                    fontWeight: "500",
                     color: "rgb(244, 51, 151)",
                     textAlign: "start",
                     padding: "0px 15px",
@@ -124,26 +172,43 @@ function Header() {
                 >
                   Kurtis
                 </p>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
                   Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#">
-                  Link 2
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#">
-                  Link 2
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#">
-                  Link 2
-                </MenuItem>
-                <MenuItem as="a" href="#">
-                  Link 2
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
                 </MenuItem>
               </GridItem>
               <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
                 <p
                   style={{
-                    fontWeight: "bold",
+                    fontWeight: "500",
                     color: "rgb(244, 51, 151)",
                     textAlign: "start",
                     padding: "0px 15px",
@@ -151,14 +216,20 @@ function Header() {
                 >
                   Kurta Sets
                 </p>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
                   Link 1
                 </MenuItem>
               </GridItem>
               <GridItem w="100%" h="auto">
                 <p
                   style={{
-                    fontWeight: "bold",
+                    fontWeight: "500",
                     color: "rgb(244, 51, 151)",
                     textAlign: "start",
                     padding: "0px 15px",
@@ -166,23 +237,43 @@ function Header() {
                 >
                   Suits & Dress Material
                 </p>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
                   Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
                   Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
                   Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
                   Link 1
                 </MenuItem>
               </GridItem>
               <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
                 <p
                   style={{
-                    fontWeight: "bold",
+                    fontWeight: "500",
                     color: "rgb(244, 51, 151)",
                     textAlign: "start",
                     padding: "0px 15px",
@@ -190,19 +281,49 @@ function Header() {
                 >
                   Other Ethnic
                 </p>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
                   Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
                   Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
                   Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
                   Link 1
                 </MenuItem>
-                <MenuItem as="a" href="#" background>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
                   Link 1
                 </MenuItem>
               </GridItem>
@@ -217,6 +338,12 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setWomenWestern(false)}
             onMouseOver={() => setWomenWestern(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Women Western
           </MenuButton>
@@ -226,26 +353,182 @@ function Header() {
             onMouseOver={() => setWomenWestern(true)}
             onMouseLeave={() => setWomenWestern(false)}
           >
-            <Grid templateColumns="repeat(6, 1fr)" gap={1}>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+            <Grid templateColumns="repeat(6, 1fr)">
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Topwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Bottomwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Innerwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Sleepwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
             </Grid>
           </MenuList>
@@ -258,6 +541,12 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setMen(false)}
             onMouseOver={() => setMen(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Men
           </MenuButton>
@@ -267,36 +556,255 @@ function Header() {
             onMouseOver={() => setMen(true)}
             onMouseLeave={() => setMen(false)}
           >
-            <Grid templateColumns="repeat(6, 1fr)" gap={1}>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+            <Grid templateColumns="repeat(6, 1fr)">
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Topwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Bottomwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Men Accessories
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Men Footwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Etnic Wear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Inner & Sleep Wear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
             </Grid>
           </MenuList>
@@ -309,6 +817,12 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setKids(false)}
             onMouseOver={() => setKids(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Kids
           </MenuButton>
@@ -318,26 +832,120 @@ function Header() {
             onMouseOver={() => setKids(true)}
             onMouseLeave={() => setKids(false)}
           >
-            <Grid templateColumns="repeat(6, 1fr)" gap={1}>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+            <Grid templateColumns="repeat(6, 1fr)">
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Boys & Girls 2+ Years
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Infant 0-2 Years
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Toys & Accessories
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Baby Care
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
             </Grid>
           </MenuList>
@@ -350,6 +958,12 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setHome(false)}
             onMouseOver={() => setHome(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Home & Kitchen
           </MenuButton>
@@ -359,21 +973,134 @@ function Header() {
             onMouseOver={() => setHome(true)}
             onMouseLeave={() => setHome(false)}
           >
-            <Grid templateColumns="repeat(6, 1fr)" gap={1}>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+            <Grid templateColumns="repeat(6, 1fr)">
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Home Furnishing
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Home Decor
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Kitchen & Dining
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
             </Grid>
           </MenuList>
@@ -386,6 +1113,12 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setBeauty(false)}
             onMouseOver={() => setBeauty(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Beauty & Health
           </MenuButton>
@@ -395,21 +1128,109 @@ function Header() {
             onMouseOver={() => setBeauty(true)}
             onMouseLeave={() => setBeauty(false)}
           >
-            <Grid templateColumns="repeat(6, 1fr)" gap={1}>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+            <Grid templateColumns="repeat(6, 1fr)">
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Make Up
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Wellness
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Skincare
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
             </Grid>
           </MenuList>
@@ -422,6 +1243,12 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setJewellery(false)}
             onMouseOver={() => setJewellery(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Jewellery & Accessories
           </MenuButton>
@@ -431,16 +1258,139 @@ function Header() {
             onMouseOver={() => setJewellery(true)}
             onMouseLeave={() => setJewellery(false)}
           >
-            <Grid templateColumns="repeat(6, 1fr)" gap={1}>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+            <Grid templateColumns="repeat(2, 1fr)">
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Jewellery
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Women Accessory
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
             </Grid>
           </MenuList>
@@ -453,6 +1403,12 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setBags(false)}
             onMouseOver={() => setBags(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Bags & Footwear
           </MenuButton>
@@ -462,26 +1418,163 @@ function Header() {
             onMouseOver={() => setBags(true)}
             onMouseLeave={() => setBags(false)}
           >
-            <Grid templateColumns="repeat(6, 1fr)" gap={1}>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+            <Grid templateColumns="repeat(5, 1fr)">
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Women Bags
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Men Bags
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Men Footwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Women Footwear
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
             </Grid>
           </MenuList>
@@ -494,6 +1587,12 @@ function Header() {
             h={"50px"}
             onMouseLeave={() => setElectronics(false)}
             onMouseOver={() => setElectronics(true)}
+            _hover={{
+              borderBottom: "3px solid rgb(244, 51, 151)",
+              color: "rgb(244, 51, 151)",
+              fontWeight: "500",
+            }}
+            fontWeight={"400"}
           >
             Electronics
           </MenuButton>
@@ -503,16 +1602,89 @@ function Header() {
             onMouseOver={() => setElectronics(true)}
             onMouseLeave={() => setElectronics(false)}
           >
-            <Grid templateColumns="repeat(6, 1fr)" gap={1}>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+            <Grid templateColumns="repeat(2, 1fr)">
+              <GridItem w="100%" h="auto">
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Mobile & Accessories
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
-              <GridItem w="100%" h="auto" border={"1px"}>
-                <p style={{ fontWeight: "bold", color: "rgb(244, 51, 151)" }}>
+              <GridItem w="100%" h="auto" background={"rgb(249,249,249)"}>
+                <p
+                  style={{
+                    fontWeight: "500",
+                    color: "rgb(244, 51, 151)",
+                    textAlign: "start",
+                    padding: "0px 15px",
+                  }}
+                >
                   Appliances
                 </p>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
+                <MenuItem
+                  as="a"
+                  href="#"
+                  color={"#718096"}
+                  _hover={{ color: "black" }}
+                  background={"rgb(249,249,249)"}
+                >
+                  Link 1
+                </MenuItem>
               </GridItem>
             </Grid>
           </MenuList>
